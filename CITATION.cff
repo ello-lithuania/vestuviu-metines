@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Jei naudojate šiuos duomenis, nurodykite šaltinį."
+title: "Lietuviški vestuvių metinių pavadinimai (JSON / CSV)"
+type: dataset
+abstract: "Vestuvių metinių pavadinimai lietuviškai: 34 sukaktys nuo 1 iki 80 metų su pagrindiniu ir kitais vartojamais pavadinimais bei nuoroda į aprašymą. Pavadinimai sutikrinti su lietuviškąja Vikipedija ir santuoka.lt."
+authors:
+  - name: "vestuviumetines.lt"
+    website: "https://vestuviumetines.lt/"
+repository-code: "https://github.com/ello-lithuania/vestuviu-metines"
+url: "https://vestuviumetines.lt/"
+license: CC-BY-SA-4.0
+date-released: 2026-10-31
+version: "1.0.0"
+keywords:
+  - vestuvių metinės
+  - Lietuva
+  - wedding anniversaries
+  - Lithuanian
+language: lt
