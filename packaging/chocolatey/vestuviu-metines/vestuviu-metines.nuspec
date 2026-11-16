@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vestuviu-metines</id>
+    <version>__VERSION__</version>
+    <title>Vestuviu metines (Lithuanian wedding anniversaries)</title>
+    <authors>KokybiskaSvetaine.lt</authors>
+    <owners>ello-lithuania</owners>
+    <projectUrl>https://vestuviumetines.lt/</projectUrl>
+    <projectSourceUrl>https://github.com/ello-lithuania/vestuviu-metines</projectSourceUrl>
+    <packageSourceUrl>https://github.com/ello-lithuania/vestuviu-metines/tree/main/packaging/chocolatey/vestuviu-metines</packageSourceUrl>
+    <docsUrl>https://github.com/ello-lithuania/vestuviu-metines#readme</docsUrl>
+    <bugTrackerUrl>https://github.com/ello-lithuania/vestuviu-metines/issues</bugTrackerUrl>
+    <licenseUrl>https://github.com/ello-lithuania/vestuviu-metines/blob/main/rust/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>lithuania lithuanian wedding anniversary calendar cli</tags>
+    <summary>Lithuanian wedding anniversary names by year and the next anniversary for a wedding date.</summary>
+    <description>Command line tool for Lithuanian wedding anniversary names (vestuvių metinės).
+
+- `vestuviu-metines 25` – the name of the 25th anniversary (sidabrinės)
+- `vestuviu-metines --data 2010-06-12` – the next anniversary for a wedding date
+- `vestuviu-metines --visos` – all named anniversaries from 1 to 80 years
+
+Every anniversary with gift ideas and wishes: https://vestuviumetines.lt/
+
+Code MIT, data CC BY-SA 4.0.</description>
+    <releaseNotes>https://github.com/ello-lithuania/vestuviu-metines/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
