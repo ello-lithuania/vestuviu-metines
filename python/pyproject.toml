@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vestuviu-metines"
+version = "1.0.0"
+description = "Lietuviški vestuvių metinių pavadinimai pagal metus ir datą (Lithuanian wedding anniversary names)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT AND CC-BY-SA-4.0"
+license-files = ["LICENSE", "DATA_LICENSE"]
+authors = [{ name = "KokybiskaSvetaine.lt (Justas Arbatauskis)", email = "info@kokybiskasvetaine.lt" }]
+keywords = ["vestuvių metinės", "wedding anniversary", "Lithuania", "Lithuanian", "anniversary names", "metinės"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: Lithuanian",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://vestuviumetines.lt/"
+Source = "https://github.com/ello-lithuania/vestuviu-metines"
+Issues = "https://github.com/ello-lithuania/vestuviu-metines/issues"
+
+[project.scripts]
+vestuviu-metines = "vestuviu_metines.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vestuviu_metines = ["data/*.json"]

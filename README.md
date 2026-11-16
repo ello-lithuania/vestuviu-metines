@@ -80,3 +80,7 @@ Radote netikslumą ar žinote šaltinį neįtrauktam pavadinimui? Atidarykite �
 ## Licencija
 
 Duomenys – [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Naudodami nurodykite šaltinį: [vestuviumetines.lt](https://vestuviumetines.lt/).
+
+## Python paketas
+
+`python/` – biblioteka ir komandinė eilutė `vestuviu-metines` (pvz. `vestuviu-metines 25`, `vestuviu-metines --data 2010-06-12`). Žr. [python/README.md](python/README.md).
