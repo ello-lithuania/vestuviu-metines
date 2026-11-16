@@ -1,0 +1,17 @@
+[package]
+name = "vestuviu-metines"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.65"
+description = "Lithuanian wedding anniversary names (vestuvių metinės) by year and the next anniversary for a wedding date. Library and CLI, no dependencies."
+homepage = "https://vestuviumetines.lt/"
+repository = "https://github.com/ello-lithuania/vestuviu-metines"
+documentation = "https://docs.rs/vestuviu-metines"
+license = "MIT AND CC-BY-SA-4.0"
+readme = "README.md"
+keywords = ["lithuania", "lithuanian", "anniversary", "wedding", "calendar"]
+categories = ["date-and-time", "command-line-utilities", "localization"]
+authors = ["KokybiskaSvetaine.lt <info@kokybiskasvetaine.lt>"]
+include = ["src/**/*.rs", "Cargo.toml", "README.md", "LICENSE", "DATA_LICENSE"]
+
+[dependencies]
