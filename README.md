@@ -84,3 +84,11 @@ Duomenys – [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Na
 ## Python paketas
 
 `python/` – biblioteka ir komandinė eilutė `vestuviu-metines` (pvz. `vestuviu-metines 25`, `vestuviu-metines --data 2010-06-12`). Žr. [python/README.md](python/README.md).
+
+## Komandinė eilutė ir kiti paketai
+
+- **Rust**: [`vestuviu-metines`](https://crates.io/crates/vestuviu-metines) (`cargo install vestuviu-metines`), dokumentacija – [docs.rs](https://docs.rs/vestuviu-metines).
+- **D**: [`vestuviu-metines`](https://code.dlang.org/packages/vestuviu-metines) (DUB).
+- **Paruoštos programos** Windows, Linux ir macOS – [GitHub Releases](https://github.com/ello-lithuania/vestuviu-metines/releases/tag/rust-v1.0.0).
+
+Visos metinės su dovanų idėjomis ir sveikinimais – [vestuviumetines.lt](https://vestuviumetines.lt/).
